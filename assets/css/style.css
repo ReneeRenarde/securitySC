@@ -9,9 +9,14 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.centerHeader, .container {
+.centerHeader, .container, .quizContainer {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+}
+
+.quizContainer {
+    margin-left: 120px;
+    font-size: medium;
 }
 
 .form-horizontal {
@@ -29,9 +34,14 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.questions {
+text-align: justify;
+}
+
+
 footer {
     padding: 10px;
-    position: fixed;
+    position: relative;
     height: auto;
     bottom: 0;
     width: 100%;
