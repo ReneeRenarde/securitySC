@@ -16,6 +16,9 @@
     <!-- Bootstrap - Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -33,7 +36,7 @@
 
         <div class="quizContainer">
             <div class="form-group row">
-                <label class="control-label col-sm-6 questions" for="q1">I believe we have a million dollar
+                <label class="control-label col-sm-6 questions" for="q1" id="q1">I believe we have a million dollar
                     business</label>
                 <div class="col-sm-6">
                     <div class="form-check form-check-inline">
@@ -292,11 +295,13 @@
         <a class="btn btn-primary" id="finishBtn" href="results.html" role="button">Finish</a>
     </div>
 
-<br>
+    <br>
 
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid text-center" id="quizFooter">
         <img id="footerImage" src="assets/images/New Genesis Solutions Logo v2.PNG" alt="New Genesis Solutions">
     </footer>
 </body>
+
+<script src="assets/javascript/logic.js"></script>
 
 </html>

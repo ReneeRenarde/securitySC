@@ -41,10 +41,18 @@ text-align: justify;
 
 footer {
     padding: 10px;
-    position: relative;
+    position: fixed;
     height: auto;
     bottom: 0;
     width: 100%;
+}
+
+#quizFooter {
+        padding: 10px;
+        position: relative;
+        height: auto;
+        bottom: 0;
+        width: 100%;
 }
 
 #footerImage {
