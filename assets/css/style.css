@@ -24,7 +24,7 @@
     margin: 10px;
 }
 
-#nextBtn {
+#nextBtn, #finishBtn {
     border: 1px solid transparent;
     border-radius: 17px;
     margin-top: 15px;
